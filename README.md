@@ -43,11 +43,11 @@ From the above characteristic table, we can directly write the next state equati
 
 Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-Developed by: DANIYEL ANTONY RAJ SD
+Developed by: Daniyel Antony Raj
 
 Register Number: 212224220018
 ```
-module t_ff(t, clk, rst, q);
+module T(t, clk, rst, q);
   input t, clk, rst;
   output reg q;
 
@@ -65,12 +65,14 @@ endmodule
 
 **RTL DIAGRAM**
 
-![image](https://github.com/user-attachments/assets/bd948777-b3e3-4371-9a0b-9347ba566db4)
+![image](https://github.com/user-attachments/assets/2dcd0bdf-7c44-44bc-9253-281c14633bfd)
+
 
 **TIMING WAVEFORM**
 
-![image](https://github.com/user-attachments/assets/e25bbbe3-6163-4a13-9f04-33b30a4abd60)
+![image](https://github.com/user-attachments/assets/85242e49-d29d-47a1-8e25-c80f055d2234)
 
-**RESULTS**
+
+**RESULT**
 
 Thus the program to implement a T flipflop using verilog and validating their functionality using their functional tables is successfully completed.
